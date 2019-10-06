@@ -1,5 +1,24 @@
 # yii2-recaptcha3
 
+Installation
+------------
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+php composer.phar require piliugin/yii2-recaptcha3 "*"
+```
+
+or add
+
+```
+"piliugin/yii2-recaptcha3": "*"
+```
+
+to the require section of your `composer.json` file and run `composer update`.
+
 Usage
 -----
 
