@@ -3,7 +3,9 @@
     "description": "Yii2 component for Google Recaptcha v3",
     "type": "yii2-extension",
     "license": "Apache-2.0",
-    "require": {},
+    "require": {
+        "php": "^5.6"
+    },
     "autoload": {
         "psr-4": {
             "piliugin\\recaptcha3\\": "/src"
