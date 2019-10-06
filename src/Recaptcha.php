@@ -13,10 +13,19 @@ use yii\web\View;
  */
 class Recaptcha extends Component
 {
+    /**
+     * @var string
+     */
     public $publicKey;
 
+    /**
+     * @var string
+     */
     public $privateKey;
 
+    /**
+     * @var string
+     */
     protected $endpoint = 'https://www.google.com/recaptcha';
 
     /**

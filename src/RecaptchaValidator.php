@@ -26,7 +26,7 @@ class RecaptchaValidator extends Validator
     public $acceptanceScore = 0.5;
 
     /**
-     * @var string
+     * @var string - this value will be compared with google`s response
      */
     public $action;
 
